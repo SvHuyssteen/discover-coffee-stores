@@ -1,0 +1,23 @@
+.appfooter {
+  height: 5rem;
+  color: antiquewhite;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(67, 161, 139);
+  background: linear-gradient(
+    90deg,
+    rgba(67, 161, 139, 0.45939675174013916) 0%,
+    rgba(9, 100, 121, 0.9095127610208816) 30%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.mainhead {
+  transition: all 0.2s ease-in-out;
+}
+
+.mainhead:hover {
+  transform: scale(1.1);
+}
